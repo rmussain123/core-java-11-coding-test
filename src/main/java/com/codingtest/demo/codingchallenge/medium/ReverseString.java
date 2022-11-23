@@ -1,4 +1,7 @@
-package com.codingtest.demo.codingchallenge;
+package com.codingtest.demo.codingchallenge.medium;
+
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class ReverseString {
     public static void main(String[] args) {
@@ -7,9 +10,18 @@ public class ReverseString {
          * 2. String builder to append
          * 3. Append one by one letter
          */
-        String word = "Hello World!";
+//        String word = "Hello World!";
 //        System.out.println(reverseStringUsingSBKey(word));
-        System.out.println(manuallyReverse(word));
+//        System.out.println(manuallyReverse(word));
+
+
+        Scanner sc=new Scanner(System.in);
+        String A=sc.next();
+        StringBuilder sb= new StringBuilder(A);
+//        Arrays.sort(A.toLowerCase());
+        if(sb.reverse().toString().equalsIgnoreCase(A)){
+            System.out.println("Yes");
+        }
 
     }
 

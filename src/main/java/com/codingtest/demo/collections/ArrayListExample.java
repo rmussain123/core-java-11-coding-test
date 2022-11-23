@@ -1,7 +1,11 @@
 package com.codingtest.demo.collections;
 
-public class ArrayListExample {
+import static com.codingtest.demo.collections.ArrayListTest.getName;
+
+public class ArrayListExample implements ArrayList {
     public static void main(String[] args) {
         System.out.println("Test");
+        System.out.println(getName());
     }
+
 }

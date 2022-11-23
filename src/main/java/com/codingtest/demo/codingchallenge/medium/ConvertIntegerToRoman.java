@@ -1,4 +1,4 @@
-package com.codingtest.demo.codingchallenge;
+package com.codingtest.demo.codingchallenge.medium;
 
 public class ConvertIntegerToRoman {
     public static void main(String[] args) {

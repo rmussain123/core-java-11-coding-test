@@ -1,4 +1,4 @@
-package com.codingtest.demo.codingchallenge;
+package com.codingtest.demo.codingchallenge.medium;
 
 import java.util.HashMap;
 import java.util.Map;
