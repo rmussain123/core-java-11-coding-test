@@ -2,7 +2,7 @@ package com.codingtest.demo.codingchallenge.medium;
 
 public class Palindrome {
     public static void main(String[] args) {
-        System.out.println(checkPalindrome("Madam taking class"));
+        System.out.println(checkPalindrome("madam taking class"));
     }
     private static String checkPalindrome(String str){
         String[] word = str.split(" ");

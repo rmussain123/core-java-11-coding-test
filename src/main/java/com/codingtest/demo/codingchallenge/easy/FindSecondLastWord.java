@@ -7,9 +7,9 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public class FindSecondLastWord {
     public static void main(String[] args) {
 //        anagramText("listen , silent");
-//        System.out.println(secondLast("My Name is Hussain"));
+        System.out.println(secondLast("My Name is Hussain"));
 //        System.out.println(wordSearch("is","My Name is Hussain"));
-        anagramText("madam");
+//        anagramText("madam");
     }
 
     /**
